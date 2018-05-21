@@ -10,6 +10,9 @@ public class Lamparita {
 	}
 	public void encender() {this.es=true;}
 	public void apagar() {this.es=false;}
+	public boolean estado() {
+		return this.es;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
