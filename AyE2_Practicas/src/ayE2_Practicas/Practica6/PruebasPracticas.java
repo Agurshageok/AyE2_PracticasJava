@@ -28,10 +28,29 @@ public class PruebasPracticas {
 		/*
 		 * Ej 7 - Empleado
 		 *  
-		 */
+		 
 		Empleado emp1 = new Empleado ();
 		Empleado emp2 = new Empleado (1, "Pepe");
 		emp1.verDatos();
 		emp2.verDatos();
+		*/
+		
+		//Ej 8 - Punto
+		
+		/*Punto r1 = new Punto();
+		Punto r2 = new Punto(2,4);
+		Punto r3 = new Punto (5,6);
+		r1=r1.sumarDosPuntos(r3, r2);
+		if (r1.iguales(r3)) {
+			System.out.println(r1.toString());
+		}else {
+			System.out.println("No son iguales, usar: "+r2.toString());
+		}
+		
+		//System.out.println(r1.toString());
+		*/
+		
+		//Ej 9 - Vector 3d
 }
+
 }

@@ -4,7 +4,7 @@ public class Punto {
 	private float x;
 	private float y;
 	
-	public Punto() {this.x=0;this.y=0;}
+	public Punto() {x=0;y=0;}
 	public Punto(float x, float y) {this.x=x;this.y=y;}
 	public Punto (float x) {this.x=x;this.y=x;}
 	
@@ -22,4 +22,19 @@ public class Punto {
 		return r3;
 	}
 	
+	public void sumarDosPuntosEnElPrimero (Punto r1) {
+		this.x += r1.x;
+		this.y += r1.y;
+	}
+	
+	public boolean iguales (Punto r1) {
+		boolean es = false;
+		if (this.x==r1.x && this.y == r1.y){es=true;}
+		return es;
+	}
+	
+	@Override
+	public String toString() {
+		return "El punto es: ("+x+","+y+")";
+	}
 }
