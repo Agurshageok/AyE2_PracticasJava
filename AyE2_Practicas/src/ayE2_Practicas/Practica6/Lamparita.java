@@ -1,6 +1,6 @@
 package ayE2_Practicas.Practica6;
 
-public class Lamparita {
+/*public class Lamparita {
 	private boolean es;
 	public Lamparita() {
 		es = false;
@@ -18,4 +18,17 @@ public class Lamparita {
 
 	}
 
+}
+*/
+public class Lamparita {
+	enum EstadoLamp {ENCENDIDA, APAGADA};
+	private EstadoLamp es;
+	public Lamparita() {
+		es = EstadoLamp.APAGADA;
+	}
+	public void apagar() {this.es = EstadoLamp.APAGADA;}
+	public void encender() {
+		this.es = EstadoLamp.ENCENDIDA;
+		}
+	public EstadoLamp getEstado () {return this.es;}
 }
