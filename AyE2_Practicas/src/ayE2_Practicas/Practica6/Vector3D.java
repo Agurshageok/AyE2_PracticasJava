@@ -2,8 +2,6 @@ package ayE2_Practicas.Practica6;
 
 public class Vector3D extends Punto {
 	
-	private float x;
-	private float y;
 	private float z;
 	
 	public Vector3D() {
@@ -11,7 +9,7 @@ public class Vector3D extends Punto {
 		y=0;
 		z=0;
 	}
-	public Vector3D(float x, float y, float z) {this.x=x;this.y=y;this.z=z;}
+	public Vector3D(float x, float y, float z) {super(x,y);this.z=z;}
 	public float getX() {
 		return x;
 	}

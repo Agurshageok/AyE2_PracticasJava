@@ -74,6 +74,14 @@ public class PruebasPracticas {
 		*/
 		
 		// EJ 17 monedero
+		/*
+		Monedero m = new Monedero(1000);
+		m.sacar(2000);
+		m.poner(1000);
+		m.sacar(2000);
+		m.consulta();*/
+		
+		// ej 18 Cuenta Corriente
 		
 		
 }

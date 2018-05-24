@@ -1,8 +1,8 @@
 package ayE2_Practicas.Practica6;
 
 public class Punto {
-	private float x;
-	private float y;
+	protected float x;
+	protected float y;
 	
 	public Punto() {x=0;y=0;}
 	public Punto(float x, float y) {this.x=x;this.y=y;}

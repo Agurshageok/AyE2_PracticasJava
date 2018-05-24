@@ -18,9 +18,9 @@ public class Monedero {
 	}
 	
 	public void sacar(int d) {
-		if (dinero > d) {
+		if (dinero >= d) {
 			dinero -= d;
-			System.out.println(d+"Retirado con exito");
+			System.out.println("Retirado con exito: "+d);
 		}else {
 			System.out.println("Fondos Insuficientes");
 		}
