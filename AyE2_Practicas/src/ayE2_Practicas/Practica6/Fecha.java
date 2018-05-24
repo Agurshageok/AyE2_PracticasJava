@@ -66,20 +66,21 @@ public class Fecha {
 	}
 	
 	public boolean esMayor(Fecha f1) {
-		boolean es = false;
-		
+		boolean esM = false;
+		if (this.es) {
 		if (a > f1.a) {
-			es = true;
+			esM = true;
 		}else {
 			if (a==f1.a && m > f1.m) {
-				es = true;
+				esM = true;
 			}else {
 				if (a==f1.a && m==f1.m && d > f1.d) {
-					es = true;
+					esM = true;
 				}
 			}
 		}
-		return es;
+		}
+		return esM;
 	}
 	
 	@Override 
