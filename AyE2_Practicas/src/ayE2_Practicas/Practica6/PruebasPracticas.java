@@ -51,6 +51,31 @@ public class PruebasPracticas {
 		*/
 		
 		//Ej 9 - Vector 3d
+		
+		//Ej 10 - Complejos
+		/*
+		Complejo c1 = new Complejo(2, 2);
+		Complejo c2 = new Complejo (1, 1);
+		c1.producto(c2);
+		System.out.println(c1.toString());
+	*/
+		//Ej 12 - fecha
+		
+		/*
+		Fecha f1 = new Fecha();
+		Fecha f2 = new Fecha(1900,1,2);
+		
+		if (f1.esMayor(f2)) {
+			System.out.println(f1.toString());
+			
+		}else {
+			System.out.println(f2.toString());
+		}
+		*/
+		
+		// EJ 17 monedero
+		
+		
 }
 
 }
