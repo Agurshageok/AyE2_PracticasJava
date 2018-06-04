@@ -42,5 +42,5 @@ public class Complejo {
 	
 	@Override
 	
-	public String toString() {return "("+real+";"+img+")";}
+	public String toString() {return "("+real+";"+img+"i)";}
 }

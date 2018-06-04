@@ -15,8 +15,21 @@ public class Pila<T>{
 		return elementos.size();
 	}
 	
+	public boolean esVacia() {
+		return elementos.isEmpty();
+	}
+	
+	
 	public void push(T p) {
 		elementos.add(p);
 	}
+	
+	/*public T pop() throws Exception { 
+		if(esVacia()) {
+			Exception;
+		}else {
+			return elementos.get(0);
+		}
+	}*/
 
 }
